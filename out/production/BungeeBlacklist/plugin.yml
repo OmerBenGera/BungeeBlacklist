@@ -1,0 +1,23 @@
+name: BungeeBlacklist
+main: com.ome_r.bungeeblacklist.Main
+version: 1.2.3
+author: [OmerBenGera]
+permissions:
+  bungeeblacklist.*:
+    description: Gives access to all bungeeblacklist commands
+    children:
+      bungeeblacklist.blacklist: true
+      bungeeblacklist.unblacklist: true
+      bungeeblacklist.history: true
+      bungeeblacklist.silent: true
+      bungeeblacklist.bypass: true
+  bungeeblacklist.blacklist:
+    description: Gives access to /blacklist command
+  bungeeblacklist.unblacklist:
+    description: Gives access to /unblacklist command
+  bungeeblacklist.history:
+    description: Gives access to /history command
+  bungeeblacklist.silent:
+    description: Gives access to see silent announcements
+  bungeeblacklist.bypass:
+    description: Gives access to login if blacklisted

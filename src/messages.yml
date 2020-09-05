@@ -1,0 +1,24 @@
+NO_PERMISSION: '&fUnknown command. Type "/help" for help.'
+COMMAND_USAGE: '&cUsage: {0}'
+DEFAULT_REASON: 'Blacklisted by an operator.'
+INVALID_PLAYER: '&cCouldn''t find the player ''{0}''.'
+BYPASS_PERMISSION: '&cYou cannot blacklist the player ''{0}''.'
+SELF_BLACKLIST: '&cYou cannot blacklist yourself.'
+SELF_UNBLACKLIST: '&cYou cannot unblacklist yourself.'
+SILENT_PREFIX: '&7[Silent]'
+BLACKLIST_ANNOUNCE: |-
+  &a{0} has blacklisted the player {1}.
+  &aReason: {2}
+KICK_MESSAGE: |-
+  &cYou have been blacklisted from this server.
+  &cReason: {0}
+UNBLACKLIST_ANNOUNCE: '&a{0} has unblacklisted the player {1}.'
+NOT_BLACKLISTED: '&cThe player ''{0}'' is not blacklisted.'
+HISTORY: |-
+  &aHistory of {0}:
+  {1}
+HISTORY_BLACKLIST: |-
+  &a{0}. Blacklisted by {1}.
+  &aReason: {2}
+HISTORY_UNBLACKLIST: '&a{0}. Unblacklisted by {1}.'
+BLACKLIST_WARNING: '&c[Warning] Looks like one of your accounts is blacklisted, but you have bypass access.'
